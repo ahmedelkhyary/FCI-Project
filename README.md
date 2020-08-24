@@ -9,6 +9,17 @@ College Management system is an **Android** , iOS and web based application whic
 * Effective Communication
 
 #### System implementation
+##### Login with a student
+
+![SVID-20200816-071945](https://user-images.githubusercontent.com/70061912/91105987-d6f08000-e671-11ea-9837-0307818acf24.gif)
+
+___
+
+##### Login with a doctor
+
+![SVID-20200816-072203](https://user-images.githubusercontent.com/70061912/91106000-e1127e80-e671-11ea-8e76-c2b542e94e15.gif)
+
+
 
 
 
