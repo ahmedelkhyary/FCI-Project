@@ -17,7 +17,7 @@ ___
 
 ##### Login with a doctor
 
-![SVID-20200816-072203](https://user-images.githubusercontent.com/70061912/91106000-e1127e80-e671-11ea-8e76-c2b542e94e15.gif)
+![sec](https://user-images.githubusercontent.com/70061912/91109022-fee3e180-e679-11ea-87d3-6b94b8e64e04.gif)
 
 
 
