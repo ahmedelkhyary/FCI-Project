@@ -11,7 +11,7 @@ College Management system is an **Android** , iOS and web based application whic
 #### System implementation
 ##### Login with a student
 
-![SVID-20200816-071945](https://user-images.githubusercontent.com/70061912/91105987-d6f08000-e671-11ea-9837-0307818acf24.gif)
+![first](https://user-images.githubusercontent.com/70061912/91109108-47030400-e67a-11ea-995f-6c79ec7e32bf.gif)
 
 ___
 
