@@ -8,7 +8,7 @@ College Management system is an **Android** , iOS and web based application whic
 * Role of Technology
 * Effective Communication
 
-#### System implementation
+## System implementation
 ##### Login with a student
 
 ![first](https://user-images.githubusercontent.com/70061912/91109108-47030400-e67a-11ea-995f-6c79ec7e32bf.gif)
