@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fci.iml" filepath="$PROJECT_DIR$/Fci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fci.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fci.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paytabs_sdk-v4.0.1/Fci.paytabs_sdk-v4.0.1.iml" filepath="$PROJECT_DIR$/.idea/modules/paytabs_sdk-v4.0.1/Fci.paytabs_sdk-v4.0.1.iml" />
+    </modules>
+  </component>
+</project>
