@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006797</color>
+    <color name="colorPrimaryDark">#015980</color>
+    <color name="colorAccent">#FF015980</color>
+
+    <color name="facebook1">#1F54AA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#006797</color>
+
+    <color name="whiteq">#F1EEEE</color>
+
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@drawable/homeappdes"
+
+    tools:context=".LoginApiActivity.Login">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:fillViewport="true"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/demp"
+
+
+                />
+
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/divider"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.01dp"
+                android:background="#868080" />
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/whiteq"
+
+                android:layout_marginRight="20dp">
+
+                <EditText
+                    android:id="@+id/emailoflogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/email"
+                    android:drawablePadding="15dp"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:text="mcli3064@gmail.com"
+                    android:textColor="@color/white"
+                    tools:ignore="Autofill,TextFields" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layoutofpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/whiteq"
+
+                android:layout_below="@+id/layoutemail"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                app:passwordToggleEnabled="true"
+
+                >
+
+                <EditText
+                    android:id="@+id/passoflogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="15dp"
+                    android:hint="@string/password"
+
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:text="123456789"
+
+                    android:textColor="@color/white"
+                    app:passwordToggleTint="@color/blue"
+                    tools:ignore="Autofill,TextFields" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawablePadding="15dp"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+
+                android:hint="Select Login "
+                android:inputType="none"
+                android:paddingLeft="20dp"
+
+                android:textAllCaps="false"
+
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15dp"
+                app:passwordToggleTint="@color/blue"
+                tools:ignore="Autofill,TextFields" />
+
+
+
+            <Button
+                android:background="@drawable/desofbuttonlogin"
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutofpass"
+                android:textColor="#ffffff"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="5dp"
+                android:text="Login" />
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login"
+                android:background="@drawable/desofbuttonlogin"
+                android:textColor="#ffffff"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+
+                android:layout_marginRight="30dp"
+                android:onClick="signup"
+                android:text="sing up" />
+
+            <TextView
+
+                android:layout_gravity="center"
+                android:id="@+id/forgetpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signup"
+
+                android:onClick="forgot"
+
+
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="30dp"
+                android:textColor="#ffffff"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text="Forgot Password" />
+
+            <ProgressBar
+
+                android:id="@+id/prgressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+
+                />
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+
+
+        android:text="
+جميع الحقوق محفوظة © 2020 كليه الحاسبات و المعلومات جامعه قناة السويس"
+        android:textAlignment="center"
+
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+
+
+        android:text="ِِِAbout US | Connect US"
+        android:textAlignment="center"
+
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

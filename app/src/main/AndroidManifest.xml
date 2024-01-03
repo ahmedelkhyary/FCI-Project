@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.collegemangement.fci">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fourgradeis.fourgradeis"></activity>
+        <activity android:name=".thirdgradeis.thirdgradeis" />
+        <activity android:name=".About" />
+        <activity
+            android:name=".fullimage"
+            android:theme="@style/NoActionBarSearch" />
+        <activity android:name=".Events.events" />
+        <activity
+            android:name=".message.message"
+            android:theme="@style/NoActionBarSearch" />
+        <activity
+            android:name=".Chat.Chat"
+            android:theme="@style/NoActionBarSearch" />
+        <activity android:name=".UpdataQuestion.UpdataQuestion" />
+        <activity android:name=".getQuizByDoc.getQuizByDoc" />
+        <activity android:name=".Update.updatequiz" />
+        <activity android:name=".Updata.Updatapost" />
+        <activity android:name=".getQuizResult.getQuizResult" />
+        <activity android:name=".GetQuizDoctor.GetQuizDoctor" />
+        <activity android:name=".getDoctorMaterial.GetDoctorMaterial" />
+        <activity android:name=".GetMaterial.getMateria" />
+        <activity android:name=".UploadMaterial.uploadmaterial" />
+        <activity
+            android:name=".Searchbydoctor.Searchbydoctor"
+            android:theme="@style/NoActionBarSearch" />
+        <activity
+            android:name=".videoplyer"
+            android:theme="@style/AppThemeNoactionBar" />
+        <activity android:name=".ChangePassword.ChangePassword" />
+        <activity android:name=".Studentinfo.ProfileStudent" />
+        <activity
+            android:name=".Maindoctor.Main2ActivityDoctor"
+            android:label="@string/title_activity_main2_doctor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CreatedoctorEmail.CreatedoctorEmail" />
+        <activity android:name=".resultofquiz" />
+        <activity android:name=".Quiz.quiz" />
+        <activity android:name=".getQuizes.Onliequiz" />
+        <activity android:name=".AddQuestiion.Addquestion" />
+        <activity android:name=".ForgotPassword.Forgotpassword" />
+        <activity android:name=".Createquiz.Createquiz" />
+        <activity android:name=".Doctorview" />
+        <activity
+            android:name=".Doctors.doctors"
+            android:theme="@style/NoActionBarSearch" />
+        <activity android:name=".FourthGrade.fourthgrade" />
+        <activity android:name=".ThirdGrade.thirdgrade" />
+        <activity android:name=".SecendGrade.secendgrdae" />
+        <activity android:name=".FirstGrade.Firstgrdae" />
+        <activity android:name=".Payment.Payment" />
+        <activity
+            android:name=".Student.Student"
+            android:theme="@style/NoActionBarSearch" />
+        <activity android:name=".postdesgin" />
+        <activity android:name=".ProfileInfromation.profile" />
+        <activity
+            android:name=".SignAvtivity.Signup"
+            android:theme="@style/AppThemeNoactionBar" />
+        <activity
+            android:name=".LoginApiActivity.Login"
+            android:theme="@style/AppThemeNoactionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPosts.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/postshape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:text="Question"
+
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="50dp"
+                android:background="#E7E7E7"
+                tools:layout_editor_absoluteX="6dp" />
+
+            <TextView
+                android:id="@+id/answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="6dp"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="auto"
+                android:hint="Answer 1"
+                android:paddingLeft="10dp"
+                android:textColorHighlight="#090808"
+                android:textColorHint="#AE030303"
+                android:textStyle="normal" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="50dp"
+            android:background="#E7E7E7"
+            tools:layout_editor_absoluteX="6dp" />
+
+            <TextView
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:ems="10"
+                android:focusable="auto"
+                android:hint="Answer 2"
+                android:paddingLeft="10dp"
+                android:textColorHighlight="#090808"
+                android:textColorHint="#AE030303"
+                android:textStyle="normal" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="50dp"
+            android:background="#E7E7E7"
+            tools:layout_editor_absoluteX="6dp" />
+
+            <TextView
+                android:id="@+id/answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:ems="10"
+                android:focusable="auto"
+                android:hint="Answer 3"
+                android:paddingLeft="10dp"
+                android:textColorHighlight="#090808"
+                android:textColorHint="#AE030303"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="50dp"
+            android:background="#E7E7E7"
+            tools:layout_editor_absoluteX="6dp" />
+
+            <TextView
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:clickable="true"
+                android:ems="10"
+                android:focusable="auto"
+                android:hint="Answer 4"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColorHighlight="#090808"
+                android:textColorHint="#AE030303"
+                android:textStyle="normal" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="50dp"
+            android:background="#E7E7E7"
+            tools:layout_editor_absoluteX="6dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:clickable="true"
+            android:ems="10"
+            android:focusable="auto"
+            android:hint="Result"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColorHighlight="#090808"
+            android:textColorHint="#AE030303"
+            android:textStyle="normal"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
